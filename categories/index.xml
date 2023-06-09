@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DingWenHuang&#39;s blog</title>
+    <link>https://DingWenHuang.github.io/categories/</link>
+    <description>Recent content in Categories on DingWenHuang&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mark down</title>
+      <link>https://DingWenHuang.github.io/categories/mark-down/</link>
+      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
+      
+      <guid>https://DingWenHuang.github.io/categories/mark-down/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go Language</title>
+      <link>https://DingWenHuang.github.io/categories/go-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://DingWenHuang.github.io/categories/go-language/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
