@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WenHuang&#39;s blog</title>
-    <link>https://DingWenHuang.github.io/</link>
-    <description>Recent content on WenHuang&#39;s blog</description>
+    <title>About on WenHuang&#39;s blog</title>
+    <link>https://DingWenHuang.github.io/categories/about/</link>
+    <description>Recent content in About on WenHuang&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 04 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>個人簡歷</title>
       <link>https://DingWenHuang.github.io/blog/resume/</link>

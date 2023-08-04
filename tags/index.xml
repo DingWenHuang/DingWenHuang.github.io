@@ -1,56 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on DingWenHuang&#39;s blog</title>
+    <title>Tags on WenHuang&#39;s blog</title>
     <link>https://DingWenHuang.github.io/tags/</link>
-    <description>Recent content in Tags on DingWenHuang&#39;s blog</description>
+    <description>Recent content in Tags on WenHuang&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hant</language>
-    <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Game</title>
-      <link>https://DingWenHuang.github.io/tags/game/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>https://DingWenHuang.github.io/tags/html/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New</title>
-      <link>https://DingWenHuang.github.io/tags/new/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photos</title>
-      <link>https://DingWenHuang.github.io/tags/photos/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://DingWenHuang.github.io/tags/python/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
+    <language>zh-Hant</language><atom:link href="https://DingWenHuang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

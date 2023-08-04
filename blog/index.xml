@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on DingWenHuang&#39;s blog</title>
+    <title>Blogs on WenHuang&#39;s blog</title>
     <link>https://DingWenHuang.github.io/blog/</link>
-    <description>Recent content in Blogs on DingWenHuang&#39;s blog</description>
+    <description>Recent content in Blogs on WenHuang&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>學習Mark down語法</title>
-      <link>https://DingWenHuang.github.io/blog/test/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
+      <title>個人簡歷</title>
+      <link>https://DingWenHuang.github.io/blog/resume/</link>
+      <pubDate>Fri, 04 Aug 2023 21:07:47 +0800</pubDate>
       
-      <guid>https://DingWenHuang.github.io/blog/test/</guid>
-      <description>Hello world
-我是 Wen
-一級標題 二級標題 這裡是粗體
-這裡是斜體
-有序序列 1</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://DingWenHuang.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <guid>https://DingWenHuang.github.io/blog/resume/</guid>
+      <description>個人簡歷：
+相關技能：
+學習課程內容：
+實作作品集：</description>
     </item>
     
   </channel>
