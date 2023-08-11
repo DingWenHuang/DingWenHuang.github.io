@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WenHuang&#39;s blog</title>
-    <link>https://DingWenHuang.github.io/</link>
-    <description>Recent content on WenHuang&#39;s blog</description>
+    <title>Portfolio on WenHuang&#39;s blog</title>
+    <link>https://DingWenHuang.github.io/categories/portfolio/</link>
+    <description>Recent content in Portfolio on WenHuang&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 10 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>個人簡歷與作品集簡介</title>
-      <link>https://DingWenHuang.github.io/blog/resume/</link>
-      <pubDate>Thu, 10 Aug 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/blog/resume/</guid>
-      <description>自我介紹： 我是黃鼎文，畢業於國立交通大學生醫工程研究所
-透過線上學習平台自主學習程式語言，並實作出些小型專案，正在往軟體工程師的路上努力邁進
-會想在 30 出頭的年紀嘗試一條不一樣的道路，是因為經歷疫情後，感慨人生無常
-想要趁還有動力時挑戰自己，勇敢挑戰過去一直有興趣但未曾認真接觸的軟體開發領域
-學歷： 高雄醫學大學生物科技學系畢業(智育與四育獎章畢業)</description>
-    </item>
-    
+    <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MERN 專案-學生與教職員課程系統</title>
       <link>https://DingWenHuang.github.io/blog/portfolio_1/</link>

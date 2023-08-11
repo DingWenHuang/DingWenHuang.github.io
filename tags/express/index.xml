@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Express on WenHuang&#39;s blog</title>
+    <link>https://DingWenHuang.github.io/tags/express/</link>
+    <description>Recent content in Express on WenHuang&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hant</language>
+    <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/tags/express/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MERN 專案-學生與教職員課程系統</title>
+      <link>https://DingWenHuang.github.io/blog/portfolio_1/</link>
+      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
+      
+      <guid>https://DingWenHuang.github.io/blog/portfolio_1/</guid>
+      <description>連結：https://mern-practice-client.onrender.com/
+(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)
+github client 端：https://github.com/DingWenHuang/mern-client0716
+github server 端：https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
