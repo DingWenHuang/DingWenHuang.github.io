@@ -8,15 +8,13 @@
     <language>zh-Hant</language>
     <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Spring boot 專案-電商平台後端</title>
+      <title>Spring Boot 專案-電商平台後端</title>
       <link>https://DingWenHuang.github.io/blog/portfolio_2/</link>
       <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
       
       <guid>https://DingWenHuang.github.io/blog/portfolio_2/</guid>
-      <description>2.Spring boot 專案-電商平台後端 連結：https://springboot-mall.onrender.com/
-(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)
-github：https://github.com/DingWenHuang/springboot-mall-deploy
-專案簡介：</description>
+      <description>2.Spring boot 專案-電商平台後端 連結：https://springboot-mall.onrender.com/(因使用免費的 render.com 進行部屬，首次進入需等待約一分鐘以啟動服務)
+GitHub：https://github.com/DingWenHuang/springboot-mall-deploy專案簡介： 這個專案是一個使用 Spring Boot 架構的電商平台後端。主要功能涵蓋商品管理、使用者管理和訂單管理。同時，進行了單元測試以確保 API 的可靠性。</description>
     </item>
     
   </channel>
