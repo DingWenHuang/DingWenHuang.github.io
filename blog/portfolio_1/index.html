@@ -153,7 +153,7 @@
           >
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>09 June 2023</span>
+          <span>13 August 2023</span>
           
         </div>
         
@@ -161,13 +161,19 @@
 <p>連結：<a href="https://mern-practice-client.onrender.com/" target="_blank" >https://mern-practice-client.onrender.com/</a>
 </p>
 <p>(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)</p>
-<p>github client 端：<a href="https://github.com/DingWenHuang/mern-client0716" target="_blank" >https://github.com/DingWenHuang/mern-client0716</a>
+<p>github client 端：<a href="https://github.com/DingWenHuang/mern-client-deploy" target="_blank" >https://github.com/DingWenHuang/mern-client-deploy</a>
 </p>
-<p>github server 端：<a href="https://github.com/DingWenHuang/mern-server0716" target="_blank" >https://github.com/DingWenHuang/mern-server0716</a>
+<p>github server 端：<a href="https://github.com/DingWenHuang/mern-server-deploy" target="_blank" >https://github.com/DingWenHuang/mern-server-deploy</a>
 </p>
 <p> </p>
 <h4 id="專案簡介">專案簡介：</h4>
 <p>這個專案是一個學生與教職員課程系統，使用者可以註冊帳號並選擇身分。根據不同的身分，使用者可以執行不同的操作。</p>
+<p>測試用帳號 - 講師：</p>
+<p>帳號：teacher1@test.com，密碼：teacher1</p>
+<p>帳號：teacher2@test.com，密碼：teacher2</p>
+<p>測試用帳號 - 學生：</p>
+<p>帳號：student1@test.com，密碼：student1</p>
+<p>帳號：student2@test.com，密碼：student2</p>
 <p> </p>
 <h4 id="使用技術">使用技術：</h4>
 <ul>
@@ -186,15 +192,96 @@
 <p>在個人頁面中，使用者可以更改名稱、信箱和密碼</p>
 </li>
 <li>
-<p>講師可以建立新課程，同時在課程頁面中進行修改和刪除操作</p>
+<p>講師可以建立新課程，同時可以在課程頁面中進行修改和刪除操作</p>
 </li>
 <li>
 <p>學生可以搜尋課程並進行註冊，同時可以在課程頁面查看已註冊課程，並進行退選操作</p>
 </li>
 </ul>
 <p><img src="/images/portfolio_1/mern_outline.png" alt=""></p>
+<ol>
+<li><a href="#1-%e4%bd%bf%e7%94%a8%e8%80%85%e5%8a%9f%e8%83%bd---%e8%a8%bb%e5%86%8a" >使用者功能 - 註冊</a>
+</li>
+<li><a href="#2-%e4%bd%bf%e7%94%a8%e8%80%85%e5%8a%9f%e8%83%bd---%e7%99%bb%e5%85%a5" >使用者功能 - 登入</a>
+</li>
+<li><a href="#3-%e4%bd%bf%e7%94%a8%e8%80%85%e5%8a%9f%e8%83%bd---%e7%99%bb%e5%87%ba" >使用者功能 - 登出</a>
+</li>
+<li><a href="#4-%e4%bd%bf%e7%94%a8%e8%80%85%e5%8a%9f%e8%83%bd---%e6%9b%b4%e6%94%b9%e4%bd%bf%e7%94%a8%e8%80%85%e8%b3%87%e6%96%99" >使用者功能 - 更改使用者資料</a>
+</li>
+<li><a href="#5-%e4%bd%bf%e7%94%a8%e8%80%85%e5%8a%9f%e8%83%bd---%e6%9b%b4%e6%94%b9%e4%bd%bf%e7%94%a8%e8%80%85%e5%af%86%e7%a2%bc" >使用者功能 - 更改使用者密碼</a>
+</li>
+<li><a href="#6-%e8%ac%9b%e5%b8%ab%e5%8a%9f%e8%83%bd---%e6%96%b0%e5%a2%9e%e8%aa%b2%e7%a8%8b" >講師功能 - 新增課程</a>
+</li>
+<li><a href="#7-%e8%ac%9b%e5%b8%ab%e5%8a%9f%e8%83%bd---%e6%9f%a5%e8%a9%a2%e9%96%8b%e8%a8%ad%e8%aa%b2%e7%a8%8b" >講師功能 - 查詢開設課程</a>
+</li>
+<li><a href="#8-%e8%ac%9b%e5%b8%ab%e5%8a%9f%e8%83%bd---%e4%bf%ae%e6%94%b9%e9%96%8b%e8%a8%ad%e8%aa%b2%e7%a8%8b" >講師功能 - 修改開設課程</a>
+</li>
+<li><a href="#9-%e8%ac%9b%e5%b8%ab%e5%8a%9f%e8%83%bd---%e5%88%aa%e9%99%a4%e9%96%8b%e8%a8%ad%e8%aa%b2%e7%a8%8b" >講師功能 - 刪除開設課程</a>
+</li>
+<li><a href="#10-%e5%ad%b8%e7%94%9f%e5%8a%9f%e8%83%bd---%e6%90%9c%e5%b0%8b%e8%aa%b2%e7%a8%8b" >學生功能 - 搜尋課程</a>
+</li>
+<li><a href="#11-%e5%ad%b8%e7%94%9f%e5%8a%9f%e8%83%bd---%e8%a8%bb%e5%86%8a%e8%aa%b2%e7%a8%8b" >學生功能 - 註冊課程</a>
+</li>
+<li><a href="#12-%e5%ad%b8%e7%94%9f%e5%8a%9f%e8%83%bd---%e6%9f%a5%e8%a9%a2%e5%b7%b2%e8%a8%bb%e5%86%8a%e8%aa%b2%e7%a8%8b" >學生功能 - 查詢已註冊課程</a>
+</li>
+<li><a href="#13-%e5%ad%b8%e7%94%9f%e5%8a%9f%e8%83%bd---%e9%80%80%e9%81%b8%e8%aa%b2%e7%a8%8b" >學生功能 - 退選課程</a>
+</li>
+</ol>
 <p> </p>
 <h4 id="流程圖">流程圖：</h4>
+<p> </p>
+<h5 id="1-使用者功能---註冊">1. 使用者功能 - 註冊</h5>
+<p>註冊功能中，會先驗證使用者資料的格式是否符合規範，然後確認信箱是否已經被註冊過，接著將密碼進行雜湊處理後儲存到資料庫，並回傳儲存後的使用者資料，並導向到登入頁面</p>
+<p><img src="/images/portfolio_1/mern-user-register.png" alt=""></p>
+<p> </p>
+<h5 id="2-使用者功能---登入">2. 使用者功能 - 登入</h5>
+<p>登入功能中，會先驗證使用者資料的格式是否符合規範，然後確認是否有該信箱的使用者資料，接下來比對使用者密碼是否跟資料庫內的相同，確認匹配後就會簽署 JWT，並將使用者資料儲存在瀏覽器上，並導向到個人資料頁面</p>
+<p><img src="/images/portfolio_1/mern-user-login.png" alt=""></p>
+<p> </p>
+<h5 id="3-使用者功能---登出">3. 使用者功能 - 登出</h5>
+<p>登出功能中，會直接清除掉儲存在瀏覽器上的使用者資料，並導向到首頁</p>
+<p><img src="/images/portfolio_1/mern-user-logout.png" alt=""></p>
+<p> </p>
+<h5 id="4-使用者功能---更改使用者資料">4. 使用者功能 - 更改使用者資料</h5>
+<p>更改使用者資料功能中，會先驗證要更改的資料格式是否符合規範，接著確認是否有該使用者 ID 的資料存在，然後確認欲修改的信箱是否已經被其他使用者註冊使用，最後是確認密碼是否正確，都符合條件的話就會去更新使用者的資料並回傳，此時會先登出使用者，並以更新後資料內容重新登入，並導向到個人資料頁面</p>
+<p><img src="/images/portfolio_1/mern-user-update.png" alt=""></p>
+<p> </p>
+<h5 id="5-使用者功能---更改使用者密碼">5. 使用者功能 - 更改使用者密碼</h5>
+<p>更改使用者密碼功能中，會驗證要變更的新密碼是否符合規範，接著確認是否有該使用者 ID 的資料存在，然後比對舊密碼是否正確以確認身分，接著將欲修改的新密碼進行雜湊處理，然後去更新使用者的資料並回傳，更改密碼後會被強制登出並導向到登入頁面要求以新的密碼進行登入</p>
+<p><img src="/images/portfolio_1/mern-user-changePassword.png" alt=""></p>
+<p> </p>
+<h5 id="6-講師功能---新增課程">6. 講師功能 - 新增課程</h5>
+<p>新增課程功能中，會先驗證課程的資料格式是否符合規範，然後確認是否是講師身分，接著就會將課程資料儲存到資料庫內，並導向到課程頁面</p>
+<p><img src="/images/portfolio_1/mern-instructor-createCourse.png" alt=""></p>
+<p> </p>
+<h5 id="7-講師功能---查詢開設課程">7. 講師功能 - 查詢開設課程</h5>
+<p>查詢開設課程功能中，會先確認是否是講師身分，接著根據講師的 ID 查詢該講師開設的所有課程，並將結果回傳，再由前端去將取得的課程做展示</p>
+<p><img src="/images/portfolio_1/mern-instructor-getCoursesByInstructorId.png" alt=""></p>
+<p> </p>
+<h5 id="8-講師功能---修改開設課程">8. 講師功能 - 修改開設課程</h5>
+<p>修改開設課程功能中，會先確認欲修改的課程資料格式是否符合規範，然後確認是否是講師身分，再來根據課程 ID 查詢該課程的資料，並確認提出修改請求的講師是否為該課程的講師，都符合條件後就可以將更新後的資料儲存到資料庫內，並回傳更新後的資料內容，並導向到課程頁面</p>
+<p><img src="/images/portfolio_1/mern-instructor-updateCourseById.png" alt=""></p>
+<p> </p>
+<h5 id="9-講師功能---刪除開設課程">9. 講師功能 - 刪除開設課程</h5>
+<p>刪除開設課程的功能中，會先確認是否是講師身分，再來根據課程 ID 查詢該課程的資料，並確認提出刪除請求的講師是否為該課程的講師，都符合條件後就可以執行刪除課程操作，並導向到課程頁面</p>
+<p><img src="/images/portfolio_1/mern-instructor-deleteCourseById.png" alt=""></p>
+<p> </p>
+<h5 id="10-學生功能---搜尋課程">10. 學生功能 - 搜尋課程</h5>
+<p>搜尋課程功能中，會取得資料庫內的所有課程並回傳，再由前端去將取得的課程做展示</p>
+<p><img src="/images/portfolio_1/mern-student-getAllCourses.png" alt=""></p>
+<p> </p>
+<h5 id="11-學生功能---註冊課程">11. 學生功能 - 註冊課程</h5>
+<p>註冊課程的功能中，會根據該課程 ID 查詢資料庫內的資料，然後確認該學生是否已經註冊過該課程，才去更新內部的屬性，將學生的 ID 加入學生名單內後進行儲存，並導向到課程頁面</p>
+<p><img src="/images/portfolio_1/mern-student-enrollCourse.png" alt=""></p>
+<p> </p>
+<h5 id="12-學生功能---查詢已註冊課程">12. 學生功能 - 查詢已註冊課程</h5>
+<p>查詢已註冊課程功能中，會根據學生的 ID 去查詢課程並回傳，再由前端去將取得的課程做展示</p>
+<p><img src="/images/portfolio_1/mern-student-getCoursesByStudentId.png" alt=""></p>
+<p> </p>
+<h5 id="13-學生功能---退選課程">13. 學生功能 - 退選課程</h5>
+<p>退選課程功能中，會根據課程 ID 進行查詢，接著確認提出退選請求的學生是否為該課程的學生，符合條件就會去更新課程資料將該學生從學生名單移除，然後回傳更新後的課程資料，並重新載入課程頁面</p>
+<p><img src="/images/portfolio_1/mern-student-dropCourseById.png" alt=""></p>
+<p> </p>
 </div>
 
         

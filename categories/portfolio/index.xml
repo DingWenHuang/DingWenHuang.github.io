@@ -6,25 +6,25 @@
     <description>Recent content in Portfolio on WenHuang&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
-    <lastBuildDate>Fri, 09 Jun 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MERN 專案-學生與教職員課程系統</title>
-      <link>https://DingWenHuang.github.io/blog/portfolio_1/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/blog/portfolio_1/</guid>
-      <description>連結：https://mern-practice-client.onrender.com/(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)
-github client 端：https://github.com/DingWenHuang/mern-client0716github server 端：https://github.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 15 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot 專案-電商平台後端</title>
       <link>https://DingWenHuang.github.io/blog/portfolio_2/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
+      <pubDate>Tue, 15 Aug 2023 21:07:47 +0800</pubDate>
       
       <guid>https://DingWenHuang.github.io/blog/portfolio_2/</guid>
       <description>2.Spring boot 專案-電商平台後端 連結：https://springboot-mall.onrender.com/(因使用免費的 render.com 進行部屬，首次進入需等待約一分鐘以啟動服務)
 GitHub：https://github.com/DingWenHuang/springboot-mall-deploy專案簡介： 這個專案是一個使用 Spring Boot 架構的電商平台後端。主要功能涵蓋商品管理、使用者管理和訂單管理。同時，進行了單元測試以確保 API 的可靠性。</description>
+    </item>
+    
+    <item>
+      <title>MERN 專案-學生與教職員課程系統</title>
+      <link>https://DingWenHuang.github.io/blog/portfolio_1/</link>
+      <pubDate>Sun, 13 Aug 2023 21:07:47 +0800</pubDate>
+      
+      <guid>https://DingWenHuang.github.io/blog/portfolio_1/</guid>
+      <description>連結：https://mern-practice-client.onrender.com/(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)
+github client 端：https://github.com/DingWenHuang/mern-client-deploygithub server 端：https://github.</description>
     </item>
     
   </channel>

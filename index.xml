@@ -6,35 +6,36 @@
     <description>Recent content on WenHuang&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hant</language>
-    <lastBuildDate>Thu, 10 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 21:07:47 +0800</lastBuildDate><atom:link href="https://DingWenHuang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>個人簡歷與作品集簡介</title>
       <link>https://DingWenHuang.github.io/blog/resume/</link>
-      <pubDate>Thu, 10 Aug 2023 21:07:47 +0800</pubDate>
+      <pubDate>Sun, 20 Aug 2023 21:07:47 +0800</pubDate>
       
       <guid>https://DingWenHuang.github.io/blog/resume/</guid>
-      <description>自我介紹： 我是黃鼎文，畢業於國立交通大學生醫工程研究所。透過線上學習平台，我自主學習了程式語言並成功實作了一些小型專案。我正積極地邁向著成為一名優秀的軟體工程師的目標。
-在年紀即將迎來 32 歲的階段，我抱著挑戰的勇氣，決心嘗試全新的道路。我相信在保有動力的時刻，正是挑戰自我的最佳時機。過去一直以來，我對軟體開發領域抱持濃厚的興趣，現在正是我勇敢追尋這份興趣的時候。 學歷： 國立交通大學生醫工程研究所 - 碩士學位</description>
-    </item>
-    
-    <item>
-      <title>MERN 專案-學生與教職員課程系統</title>
-      <link>https://DingWenHuang.github.io/blog/portfolio_1/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
-      
-      <guid>https://DingWenHuang.github.io/blog/portfolio_1/</guid>
-      <description>連結：https://mern-practice-client.onrender.com/(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)
-github client 端：https://github.com/DingWenHuang/mern-client0716github server 端：https://github.</description>
+      <description>自我介紹： 我是黃鼎文，畢業於國立交通大學生醫工程研究所。透過線上學習平台，我自主學習了程式語言並成功實作了一些小型專案。我正積極地邁向成為一名優秀軟體工程師的目標。
+在這段約五個月的自學經驗中，我能夠在遭遇困難時，自主尋求解決方案，或是透過有效率的問題提出與老師進行深入的討論，這讓我對自己的學習能力充滿信心，也相信這樣的能力在未來的工作上會有所幫助。
+在年紀邁入 30 歲的階段，我抱著挑戰的勇氣，決心嘗試全新的道路。我相信在保有動力的時刻，正是挑戰自我的最佳時機。過去一直以來，我對軟體開發領域抱持濃厚的興趣，現在正是我勇敢追尋這份興趣的時候。 學歷： 國立交通大學生醫工程研究所 - 碩士學位</description>
     </item>
     
     <item>
       <title>Spring Boot 專案-電商平台後端</title>
       <link>https://DingWenHuang.github.io/blog/portfolio_2/</link>
-      <pubDate>Fri, 09 Jun 2023 21:07:47 +0800</pubDate>
+      <pubDate>Tue, 15 Aug 2023 21:07:47 +0800</pubDate>
       
       <guid>https://DingWenHuang.github.io/blog/portfolio_2/</guid>
       <description>2.Spring boot 專案-電商平台後端 連結：https://springboot-mall.onrender.com/(因使用免費的 render.com 進行部屬，首次進入需等待約一分鐘以啟動服務)
 GitHub：https://github.com/DingWenHuang/springboot-mall-deploy專案簡介： 這個專案是一個使用 Spring Boot 架構的電商平台後端。主要功能涵蓋商品管理、使用者管理和訂單管理。同時，進行了單元測試以確保 API 的可靠性。</description>
+    </item>
+    
+    <item>
+      <title>MERN 專案-學生與教職員課程系統</title>
+      <link>https://DingWenHuang.github.io/blog/portfolio_1/</link>
+      <pubDate>Sun, 13 Aug 2023 21:07:47 +0800</pubDate>
+      
+      <guid>https://DingWenHuang.github.io/blog/portfolio_1/</guid>
+      <description>連結：https://mern-practice-client.onrender.com/(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)
+github client 端：https://github.com/DingWenHuang/mern-client-deploygithub server 端：https://github.</description>
     </item>
     
   </channel>
