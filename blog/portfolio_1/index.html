@@ -160,14 +160,14 @@
         <div class="content mb-5"><p> </p>
 <p>連結：<a href="https://mern-practice-client.onrender.com/" target="_blank" >https://mern-practice-client.onrender.com/</a>
 </p>
-<p>(由於部屬在免費的 render.com 上，首次進入需花費約一分鐘等待服務啟動)</p>
 <p>github client 端：<a href="https://github.com/DingWenHuang/mern-client-deploy" target="_blank" >https://github.com/DingWenHuang/mern-client-deploy</a>
 </p>
 <p>github server 端：<a href="https://github.com/DingWenHuang/mern-server-deploy" target="_blank" >https://github.com/DingWenHuang/mern-server-deploy</a>
 </p>
 <p> </p>
 <h4 id="專案簡介">專案簡介：</h4>
-<p>這個專案是一個學生與教職員課程系統，使用者可以註冊帳號並選擇身分。根據不同的身分，使用者可以執行不同的操作。</p>
+<p> </p>
+<p>這個專案是一個學生與教職員課程系統，使用者可以註冊帳號並選擇身分。根據不同的身分，使用者可以執行不同的操作。同時，進行了單元測試以確保 API 的可靠性。</p>
 <p>測試用帳號 - 講師：</p>
 <p>帳號：teacher1@test.com，密碼：teacher1</p>
 <p>帳號：teacher2@test.com，密碼：teacher2</p>
@@ -176,14 +176,60 @@
 <p>帳號：student2@test.com，密碼：student2</p>
 <p> </p>
 <h4 id="使用技術">使用技術：</h4>
+<p> </p>
 <ul>
-<li>前端：React</li>
-<li>後端：Express.js</li>
-<li>資料庫：MongoDB</li>
-<li>驗證方式：JWT</li>
+<li>
+<p><strong>前端：React</strong></p>
+<ul>
+<li>搭配 axios 套件串接後端 API</li>
+<li>搭配 react-router-dom 套件實現 SPA</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<ul>
+<li>
+<p><strong>後端：Express.js</strong></p>
+<ul>
+<li>搭配 joi 套件驗證資料格式</li>
+<li>搭配 cors 套件解決跨域問題</li>
+<li>搭配 bcryptjs 套件進行密碼雜湊</li>
+<li>搭配 passport 套件實現登入驗證</li>
+<li>搭配 jsonwebtoken 套件實現 JWT 驗證</li>
+<li>搭配 dotenv 套件管理環境變數</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<ul>
+<li>
+<p><strong>資料庫：MongoDB</strong></p>
+<ul>
+<li>搭配 mongoose 套件操作 MongoDB</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<ul>
+<li>
+<p><strong>驗證方式：JWT</strong></p>
+<ul>
+<li>使用者登入後會簽署 JWT，並將使用者資料儲存在瀏覽器上，並在每次發送請求時帶上 JWT，後端會驗證 JWT 是否有效，有效的話就會解析出使用者資料，並將資料儲存在 req.user 內，供後續操作使用</li>
+</ul>
+</li>
+</ul>
+<p> </p>
+<ul>
+<li>
+<p><strong>單元測試：</strong></p>
+<ul>
+<li>使用 mocha、chai、supertest 等套件進行單元測試</li>
+</ul>
+</li>
 </ul>
 <p> </p>
 <h4 id="實作內容">實作內容：</h4>
+<p> </p>
 <ul>
 <li>
 <p>提供使用者註冊、登入、登出功能</p>
@@ -199,6 +245,7 @@
 </li>
 </ul>
 <p><img src="/images/portfolio_1/mern_outline.png" alt=""></p>
+<p> </p>
 <ol>
 <li><a href="#1-%e4%bd%bf%e7%94%a8%e8%80%85%e5%8a%9f%e8%83%bd---%e8%a8%bb%e5%86%8a" >使用者功能 - 註冊</a>
 </li>
